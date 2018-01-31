@@ -1,0 +1,14 @@
+1. What are the top 10 unigram words having highest probability?
+[('kanan', FreqDist({',': 1})), ('hati', FreqDist({'?': 1})), ('sudah', FreqDist({'coba': 1, 'cukup': 1})), ('tiba-tiba', FreqDist({'bisa': 1})), ('tiba', FreqDist({'Meriak': 1, 'Mari': 1, 'di': 1})), ('punda', FreqDist({'Sampai': 1})), ('liar', FreqDist({',': 1})), ('berpaling', FreqDist({'#': 1})), ('Badan', FreqDist({'perawan': 1})), ('meraih', FreqDist({'petang': 1}))]
+
+2. What are the top 10 bigram words having the highest probability?
+
+
+3. What do you think of the perplexity comparison between the unigram and bigram model?
+
+
+4. Give the example of your generated poetry based on the unigram and the bigram model, and give your comment!(e.g: is it belieaveable as a poetry?)
+menghembus diri dalam kamar, perahu tiada berlaut menghembus diri dalam mempercaya mau berpaut Gerimis
+
+I dont understand the poem
+
