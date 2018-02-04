@@ -16,7 +16,10 @@ test_text = file.read()
 def unigram(a):
 	#beri 0.01 utk kata yg tidak ada di dictionary
 	jum_kata= 0
-	model = collections.defaultdict(lambda: 0.01)
+	model =a
+	for f in model:
+		model[f] = 0.01
+	# model = collections.defaultdict(lambda: 0.01)
 	for f in a:
 		#klo udah ada di model tambah 1
 		if(f in model):
@@ -44,5 +47,8 @@ def perplexity(test, model):
 
 
 tokens = nltk.word_tokenize(poem1)
-model = unigram(poem1)
-print (perplexity(test_text, model))
+# model = unigram(poem1)
+asd['a'] = 1
+print(asd)
+# print (perplexity(test_text, model))
+# print(model)
